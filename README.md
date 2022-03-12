@@ -6,6 +6,7 @@ App was made using HTML, Vanilla CSS, and ReactJS. The recipe source is from The
 - Basics of ReactJS (in 10 days)
 - ReactJS Router
 - API Handling
+- Maintaining Clean File Structure with comments
   
 <br>
 
