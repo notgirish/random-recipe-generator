@@ -1,0 +1,16 @@
+make it responsive
+add multiple pages
+use router
+host it on heroku
+add source code pages
+integrate todo app in this
+ability to import the instructions to todo
+add github icon/repo
+add footer
+add animations/transitions
+add a screenshot on github readme
+add credits on github readme
+
+
+https://free3dicon.com/
+https://icons8.com/illustrations/style--3d-fluency
