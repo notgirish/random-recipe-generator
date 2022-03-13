@@ -10,7 +10,6 @@ add footer
 add animations/transitions
 add a screenshot on github readme
 add credits on github readme
-make todo to use localstorage? and add in readme?
 
 
 https://free3dicon.com/

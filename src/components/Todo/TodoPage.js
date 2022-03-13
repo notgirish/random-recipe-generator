@@ -1,5 +1,3 @@
-
-
 import React, { useState } from 'react'
 
 export default function TodoPage() {
@@ -11,7 +9,7 @@ export default function TodoPage() {
         // if the taskInput has atleast some text and is not a empty string then add the task
         if (taskInput) {
             setTaskListArray([...taskListArray, { taskText: taskInput, taskComplete: false }])
-            //set the input field content to empty, so a new task can be added
+            //set the input field content to empty, so a new task can be added            
             setTaskInput('')
         }
     }

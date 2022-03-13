@@ -2,8 +2,8 @@
 
 App was made using HTML, Vanilla CSS, and ReactJS. The recipe source is from TheMealDB.com
 
-## Concepts Learnt
-- Basics of ReactJS (in 10 days)
+## Things Learnt
+- ReactJS (this is my first react project)
 - ReactJS Router
 - API Handling
 - Maintaining Clean File Structure with comments

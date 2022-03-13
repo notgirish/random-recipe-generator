@@ -1,0 +1,25 @@
+.todo {
+  /* for making the footer stick on todo page */
+  min-height: 75vh;
+}
+
+footer .container {
+  position: sticky;
+  top: 100%;
+}
+
+footer {
+  margin-top: 3.25rem;
+  margin-bottom: 1rem;
+}
+
+footer,
+footer a {
+  color: var(--primary-font-icon-color);
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: 600;
+}
