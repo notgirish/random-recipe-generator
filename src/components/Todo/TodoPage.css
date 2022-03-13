@@ -1,0 +1,83 @@
+.todo{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.todo h1 {
+  color: var(--primary-font-icon-color);
+  font-weight: 600;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  margin-top: 3.25rem;
+  margin-bottom: 1rem;
+}
+
+.todo .todoInputFieldBtns {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem
+}
+
+.todo .taskInputField {
+  width: 13rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+  padding-left: 0.75rem;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  margin-right: .5rem;
+}
+
+.todo .todoInputFieldBtns button {
+  background-color: var(--bg-color);
+  color: var(--primary-font-icon-color);
+  border: 0.1rem solid var(--primary-font-icon-color);
+  height: 3rem;
+  border-radius: 0.75rem;  
+  width: 2.75rem;
+}
+
+.todo .addTaskBtn {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+
+.taskComplete {
+  text-decoration: line-through;
+  font-style: italic;
+  opacity: 60%;
+}
+
+.todo-task-item {
+  background-color: var(--primary-font-icon-color);
+  width: 19.5rem;
+  margin: .65rem 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 1.25rem;
+  padding: 0.75rem;
+  border-radius: 1rem;
+}
+
+.todo-task-item .options {
+  display: flex;
+  gap: 1rem;
+  place-content: center;
+}
+
+.todo-task-item p {
+  color: var(--bg-color);
+  place-self: center;
+}
+
+.todo-task-item .options button {
+  width: 1.25rem;
+  background-color: transparent;
+  color: var(--bg-color);
+  border: none;
+}
