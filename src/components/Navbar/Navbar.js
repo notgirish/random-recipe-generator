@@ -1,4 +1,4 @@
-import React from 'react'
+import { Link } from "react-router-dom"
 
 export default function Navbar() {
   return (
@@ -8,9 +8,9 @@ export default function Navbar() {
 
         <i className="fa fa-solid fa-burger fa-3x"></i>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">ToDo List</a></li>
-          <li><a href="#">GitHub Repo</a></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/todo">ToDo List</Link></li>
+          <li><a href="https://github.com" target="_blank" rel="noreferrer">GitHub Repo update link</a></li>
         </ul>
 
       </div>

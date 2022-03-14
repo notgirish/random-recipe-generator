@@ -1,9 +1,14 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 
 export default function TodoPage() {
 
     let [taskInput, setTaskInput] = useState('')
     let [taskListArray, setTaskListArray] = useState([])
+
+    useEffect(() => {
+      setTaskListArray([{taskText: "example: buy apples and oranges", taskComplete: true}])
+    }, [])
+    
 
     function addTasktoArray() {
         // if the taskInput has atleast some text and is not a empty string then add the task
@@ -43,7 +48,6 @@ export default function TodoPage() {
                 <button className='addTaskBtn' onClick={addTasktoArray}>+</button>
                 <button className='inputClearBtn' onClick={clearAllTasks}><i className="fa-solid fa-recycle fa-xl"></i></button>
             </div>
-
 
             {taskListArray.map((task, index) => (
                 <div className='todo-task-item' key={index}>

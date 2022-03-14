@@ -3,8 +3,6 @@ add multiple pages
 use router
 host it on heroku
 add source code pages
-integrate todo app in this
-ability to import the instructions to todo
 add github icon/repo
 add footer
 add animations/transitions
