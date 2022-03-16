@@ -2,12 +2,8 @@ make it responsive
 add multiple pages
 use router
 host it on heroku
-add source code pages
-add github icon/repo
-add footer
 add animations/transitions
 add a screenshot on github readme
-add credits on github readme
 
 
 https://free3dicon.com/

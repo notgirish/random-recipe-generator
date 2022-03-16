@@ -50,7 +50,7 @@ export default function TodoPage() {
             </div>
 
             {taskListArray.map((task, index) => (
-                <div className='todo-task-item' key={index}>
+                <div className={`todo-task-item ${task.taskComplete? 'task-item-complete':''}`} key={index}>
 
                     {task.taskComplete ? <p className='taskComplete'>{task.taskText}</p> : <p>{task.taskText}</p>}
 

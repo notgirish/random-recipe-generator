@@ -1,3 +1,7 @@
+.hero{
+  margin: 5rem 0;
+}
+
 .hero h1 {
   color: var(--primary-font-icon-color);
   font-weight: 600;

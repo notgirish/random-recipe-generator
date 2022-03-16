@@ -61,7 +61,7 @@
   opacity: 60%;
 }
 
-.todo-task-item {
+.todo-task-item, .todo-task-item-complete {
   background-color: var(--primary-font-icon-color);
   min-width: 19.5rem;
   width: 100%;
@@ -89,4 +89,8 @@
   background-color: transparent;
   color: var(--bg-color);
   border: none;
+}
+
+.task-item-complete{
+  opacity: 40%;
 }
