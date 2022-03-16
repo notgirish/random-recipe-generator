@@ -1,16 +1,7 @@
 # Responsive Recipe Generator with ToDo List
 
-App was made using HTML, Vanilla CSS, and ReactJS. The recipe source is from TheMealDB.com
+App was made using HTML, CSS, and ReactJS. The recipe source (api) is from TheMealDB.com
 
-## Things Learnt
-- ReactJS (this is my first react project)
-- ReactJS Router
-- API Handling
-- Maintaining Clean File Structure with comments
-  
-<br>
-
-***
 <br>
 
 ### <em> Getting Started with Create React App</em>

@@ -24,12 +24,11 @@ function App() {
         <Navbar />
 
         <Routes>
-          {/* <Route path="/" element={<RecipeMainPage />} /> */}
+          <Route path="/" element={<RecipeMainPage />} />
           <Route path="/todo" element={<TodoPage />} />
         </Routes>
 
-        <RecipeContent />
-        {/* <TodoPage /> */}
+        {/* <RecipeContent /> */}
         <Footer />
 
       </BrowserRouter>
