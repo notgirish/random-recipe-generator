@@ -66,15 +66,20 @@
   .recipe > .container{
     display: flex;
     gap: 2rem;
-    margin: 1rem;
+    margin: 1rem;    
   }
 
   .recipe .instructions-list{
     margin-top: 0;    
+    width: 65%;
   }
 
   .recipe .randomGenBtn{
     width: 100%;
+  }
+
+  .recipe .except-instructions{
+    width: 35%;
   }
   
 }

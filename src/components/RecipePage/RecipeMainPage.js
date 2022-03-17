@@ -6,11 +6,11 @@ export default function RecipeMainPage() {
     let [loadContent, setLoadContent] = useState(false)
 
     function launchRecipeGen() {
-        {
-            document.querySelectorAll('.hideOnClick')[0].style.display = 'none'
-            document.querySelectorAll('.hideOnClick')[1].style.display = 'none'
-            setLoadContent(true)
-        }
+
+        document.querySelectorAll('.hideOnClick')[0].style.display = 'none'
+        document.querySelectorAll('.hideOnClick')[1].style.display = 'none'
+        setLoadContent(true)
+
     }
 
     return (

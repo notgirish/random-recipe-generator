@@ -7,6 +7,7 @@ export default function RecipeContent() {
     let [instructionsArray, setInstructionsArray] = useState([])
 
     async function fetchData() {
+        setRecipeInfo({})
         let response = await fetch('https://www.themealdb.com/api/json/v1/1/random.php')
         let parsedData = await response.json()
         setRecipeInfo(parsedData.meals[0])
