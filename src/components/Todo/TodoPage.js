@@ -6,9 +6,9 @@ export default function TodoPage() {
     let [taskListArray, setTaskListArray] = useState([])
 
     useEffect(() => {
-      setTaskListArray([{taskText: "example: buy apples and oranges", taskComplete: true}])
+        setTaskListArray([{ taskText: "example: buy apples and oranges", taskComplete: true }])
     }, [])
-    
+
 
     function addTasktoArray() {
         // if the taskInput has atleast some text and is not a empty string then add the task
@@ -50,7 +50,7 @@ export default function TodoPage() {
             </div>
 
             {taskListArray.map((task, index) => (
-                <div className={`todo-task-item ${task.taskComplete? 'task-item-complete':''}`} key={index}>
+                <div className={`todo-task-item ${task.taskComplete ? 'task-item-complete' : ''}`} key={index}>
 
                     {task.taskComplete ? <p className='taskComplete'>{task.taskText}</p> : <p>{task.taskText}</p>}
 

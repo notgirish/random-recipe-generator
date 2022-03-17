@@ -6,7 +6,6 @@ import './components/Footer/Footer.css';
 
 import Navbar from "./components/Navbar/Navbar";
 import RecipeMainPage from "./components/RecipePage/RecipeMainPage";
-import RecipeContent from './components/RecipePage/RecipeContent';
 import TodoPage from "./components/Todo/TodoPage";
 import Footer from "./components/Footer/Footer";
 
@@ -28,7 +27,6 @@ function App() {
           <Route path="/todo" element={<TodoPage />} />
         </Routes>
 
-        {/* <RecipeContent /> */}
         <Footer />
 
       </BrowserRouter>

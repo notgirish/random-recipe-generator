@@ -24,9 +24,6 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: var(--bg-color);
   margin: auto 1.5rem;
-
-  /* for making the footer stick
-  min-height: 100vh; */
 }
 
 .container {

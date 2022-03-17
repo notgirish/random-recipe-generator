@@ -22,7 +22,7 @@ export default function RecipeMainPage() {
                         <p>Get new recipes to make something special to the people that make you feel special (＾－＾)</p>
                         <button><a href="#clickLaunch">Generate Recipe</a><i className="fa fa-solid fa-carrot"></i></button>
                     </div>
-                        <img src={require('../../assets/burger.png')} alt='burger' />
+                    <img src={require('../../assets/burger.png')} alt='burger' />
                 </div>
             </section>
 

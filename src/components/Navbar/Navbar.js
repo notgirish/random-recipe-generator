@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 export default function Navbar() {
 
-  function expandNav(){
+  function expandNav() {
     document.body.classList.toggle('nav-open');
   }
 

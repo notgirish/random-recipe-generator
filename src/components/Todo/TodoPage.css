@@ -26,7 +26,6 @@
 
 .todo .taskInputField {
   min-width: 12rem;
-  /* width: 70%; */
   width: 75vw;
   height: 3rem;
   border-radius: 0.75rem;

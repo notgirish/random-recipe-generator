@@ -1,25 +1,12 @@
-# Responsive Recipe Generator with ToDo List
+# Responsive Recipe Generator with ToDo List  
 
-App was made using HTML, CSS, and ReactJS. The recipe source (api) is from TheMealDB.com
+App was made using HTML, CSS, and ReactJS. The recipe source (API) is from TheMealDB.com<br><br> 
 
-<br>
+Website Link: [https://recipegen.netlify.app/](https://recipegen.netlify.app/)  
 
-### <em> Getting Started with Create React App</em>
+<br>  
 
-#### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-#### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Recipe Generator           |  ToDo List
+:-------------------------:|:-------------------------:
+![Recipe Generator Preview](https://github.com/notgirish/random-recipe-generator/blob/main/src/assets/1.JPG)  |  ![ToDo Preview](https://github.com/notgirish/random-recipe-generator/blob/main/src/assets/2.JPG)

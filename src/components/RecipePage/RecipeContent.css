@@ -60,17 +60,6 @@
     var(--gradient-btn-colorOne),
     var(--gradient-btn-colorTwo)
   );
-/* 
-  border-radius: 2rem;
-  margin: 1.5rem 0;
-  margin-right: 1rem;
-  border: none;
-  color: var(--primary-font-icon-color);
-  font-size: 1rem;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  background-color: var(--bg-color);
-  cursor: pointer; */
 }
 
 @media only screen and (min-width: 720px) {

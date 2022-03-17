@@ -54,7 +54,6 @@ export default function RecipeContent() {
                         <ul className='instructions-list'>
                             {splitaAndPrint(recipeInfo.strInstructions)}
                         </ul>
-                        {/* <button className='randomGenBtn' onClick={fetchData}>Next Random Recipe</button> */}
                     </>}
             </div>
         </section>
